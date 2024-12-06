@@ -1,0 +1,95 @@
+.borderradius{
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+}
+.fontincrease{
+    font-size: 50px;
+    margin-bottom: 15px;
+    margin-top: 70px;
+}
+.btn{
+    background-color: orange;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+.borderradius1{
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+}
+.pipe{
+    width: 70%;
+    height: 220px;
+    padding-left: 30%;
+    padding-top: 30%;
+    padding-right: 20px;
+    
+}
+.carrepair{
+    width: 70%;
+    height: 220px;
+    padding-left: 30%;
+    padding-top: 30%;
+    padding-right: 20px;
+}
+.roler{
+    width: 70%;
+    height: 220px;
+    padding-left: 30%;
+    padding-top: 30%;
+    padding-right: 20px;
+
+}
+
+.pipe1{
+    width: 70%;
+    height: 220px;
+    padding-left: 30%;
+    padding-top: 30%;
+    padding-right: 20px;
+    
+}
+.carrepair1{
+    width: 70%;
+    height: 220px;
+    padding-left: 30%;
+    padding-top: 30%;
+    padding-right: 20px;
+}
+.roler1{
+    width: 70%;
+    height: 220px;
+    padding-left: 30%;
+    padding-top: 30%;
+    padding-right: 20px;
+
+}
+
+.pipe2{
+    width: 70%;
+    height: 220px;
+    padding-left: 30%;
+    padding-top: 30%;
+    padding-right: 20px;
+    
+}
+.carrepair2{
+    width: 70%;
+    height: 220px;
+    padding-left: 30%;
+    padding-top: 30%;
+    padding-right: 20px;
+}
+.roler2{
+    width: 70%;
+    height: 220px;
+    padding-left: 30%;
+    padding-top: 30%;
+    padding-right: 20px;
+
+}
+
+

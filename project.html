@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="text" value="ddd" readonly="readonly">
+        <input type="email" placeholder="email"  value="emailgmail.com">
+
+        <button>edit</button>
+        <button>save</button>
+        <button>delete</button>
+
+    </div>
+
+
+
+    <form action="#" id="submitform">
+        <input type="text" placeholder="name" id="nametag">
+        <input type="email" placeholder="email" id="emailtag">
+
+        <button type="submit" id="addbutton">add</button>
+
+    </form>
+
+    
+
+    <div id="diplaydata">
+   
+    </div>
+    <script>
+        let submitformtagcall = document.getElementById("submitform")
+        let nametagcall = document.getElementById("nametag")
+        let emailtagcall = document.getElementById("emailtag")
+
+        let addbuttontagcall = document.getElementById("addbutton")
+        let diplaydatatagcall = document.getElementById("diplaydata")
+
+
+      
+        // console.log(submitformtagcall,nametagcall,addbuttontagcall,diplaydatatagcall);
+
+        // Create, Read , Update and Delete - CRUD
+        // submitformtagcall.addEventListener("submit",function name() {
+        //     let newdiv = document.createElement("div")
+        //     diplaydatatagcall.appendChild(newdiv)
+        //     let inputtag = document.createElement("input");
+        //     console.log(inputtag);
+        //       inputtag.value= nametagcall.value
+        //       inputtag.setAttribute("readonly","readonly")
+        //     newdiv.appendChild(inputtag)
+
+
+
+            // let editbutton = document.createElement("button");
+            // editbutton.innerHTML='Edit'
+            // newdiv.appendChild(editbutton)
+
+
+            // editbutton.addEventListener('click',function name(params) {
+            //     inputtag.removeAttribute("readonly","readonly")
+            // })
+
+
+
+            // let savebutton = document.createElement("button");
+            // savebutton.innerHTML='Save'
+            // newdiv.appendChild(savebutton)
+
+
+            // savebutton.addEventListener('click',function name(params) {
+            //     inputtag.setAttribute("readonly","readonly")
+            // })
+
+
+            // let deletebutton = document.createElement("button");
+            // deletebutton.innerHTML='Delete'
+            // newdiv.appendChild(deletebutton)
+
+
+            // deletebutton.addEventListener('click',function name(params) {
+            //     newdiv.style.display='none'
+            // })
+
+
+
+            
+            submitformtagcall.addEventListener("submit",function name() {
+
+            // alert(nametagcall.value)
+            let newdiv = document.createElement("div")
+            diplaydatatagcall.appendChild(newdiv)
+            let inputtag = document.createElement("input");
+            console.log(inputtag);
+              inputtag.value= nametagcall.value
+
+
+              inputtag.setAttribute("readonly",'readonly')
+            newdiv.appendChild(inputtag)
+
+
+
+
+            let eamiltagcreate = document.createElement("input");
+            console.log(inputtag);
+            eamiltagcreate.value= emailtagcall.value
+
+
+            eamiltagcreate.setAttribute("readonly",'readonly')
+              newdiv.appendChild(eamiltagcreate)
+
+
+            let editbutton = document.createElement('button')
+            editbutton.innerHTML= 'edit'
+            newdiv.appendChild(editbutton)
+
+            editbutton.addEventListener('click',function name(params) {
+                inputtag.removeAttribute('readonly','readonly')
+                eamiltagcreate.removeAttribute("readonly",'readonly')
+
+            })
+
+
+
+
+            let savebutton = document.createElement('button')
+            savebutton.innerHTML= 'save'
+            newdiv.appendChild(savebutton)
+
+            savebutton.addEventListener('click',function name(params) {
+                inputtag.setAttribute('readonly','readonly')
+                eamiltagcreate.setAttribute("readonly",'readonly')
+
+            })
+
+
+            let deletebutton = document.createElement('button')
+            deletebutton.innerHTML= 'delete'
+            newdiv.appendChild(deletebutton)
+
+            deletebutton.addEventListener('click',function name(params) {
+                newdiv.style.display='none'
+            })
+
+
+
+
+            })
+
+             
+
+
+
+
+    
+
+
+            
+
+        
+            
+        // })
+        
+
+    </script>
+</body>
+</html>

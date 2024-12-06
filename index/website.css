@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+.websitenew{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;  
+}
+.class{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.line{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+.header{
+    text-align: center;
+}
+.subheading{
+    text-align: center;
+    padding: 50px;
+}
+.header2{
+    text-align: center;
+    padding-top: 50px;
+}
+.smallsubheading{
+    padding-top: 60px;
+}
+.content{
+    padding-top: 50px;
+}
+.content2{
+    padding-top: 50px;
+}
+.content3{
+    padding-top: 50px;
+}
+.ssh3{
+    padding-top: 50px;
+}
+.content4{
+    padding-top: 50px;
+}
+.foodimg2{
+    padding-top: 50px;
+}
+.ssh5{
+    padding-top: 50px;
+}
+.content5{
+    padding-top: 50px;
+}
+.chefimg{
+    padding-top: 50px;
+}
+.ssh6{
+    padding-top: 50px;
+}
+.shh7{
+    padding-top: 50px;
+}
+.endtext{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* mycode */
+
+
+.mainart{
+    display: flex;
+    align-items: center;
+}
+.art{
+    padding-bottom: 50px;
+}
+.content3{
+    display: flex;
+    align-items: center;
+}
+.content4{
+    display: flex;
+    align-items: center;
+}
+.content5{
+    display: flex;
+    align-items: center;
+}
+.image{
+    display: flex;
+    align-items: center;
+}
+.mainfooter{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.green{
+    padding: 15px 30px;
+    background-color: green;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+}
+

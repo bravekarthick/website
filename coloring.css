@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.chair1{
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    flex-grow: 1;
+}
+.chair2{
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    flex-grow: 1;
+
+}
+.chair3{
+    width: 400px;
+    height: 200px;
+    background-color: green;
+    flex-grow: 1;
+
+}
+.chair4{
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    flex-grow: 1;
+
+}
+.chair5{
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    flex-grow: 1;
+
+}
+.chair6{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    flex-grow: 1;
+
+}
+.mainchair{
+    background-color: aqua;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.maincolor{
+    display: flex;
+}
+
+
+.yellow{
+    width: 100px;
+    height: 100px;
+    background-color:yellow
+}
+.black{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.green{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.maincolour{
+    display: flex;
+}
+.mainimg{
+    display: flex;
+}
